@@ -17,7 +17,7 @@ const server = new ApolloServer({
 
 server.applyMiddleware({ app });
 
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // if we're in production, serve client/build as static assets
@@ -31,4 +31,5 @@ app.get('*', (req, res) => {
 
 db.once('open', () => {
   app.listen(PORT, () => console.log(`🌍 Now listening on localhost:${PORT}`));
+  console.log(`\n *  Use GraphQL at http://localhost:${PORT}${server.graphqlPath} *`);
 });
