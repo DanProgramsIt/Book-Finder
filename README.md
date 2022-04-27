@@ -16,11 +16,11 @@ Please checkout my deployed app! **[Deployed App](https://challenge-21.herokuapp
 
 #### Search Results:
 
-![Search Results](/assets/images/SavedBooks.png)
+![Search Results](/assets/images/SearchedInfo.png)
 
 #### Saved Books:
 
-![Saved Books](/assets/images/SearchedInfo.png)
+![Saved Books](/assets/images/SavedBooks.png)
 
 
   
